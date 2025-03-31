@@ -1,0 +1,32 @@
+[
+  {
+    "label": "zig build",
+    "command": "zig build",
+    "use_new_terminal": false,
+    "reveal": "no_focus",
+    "shell": {
+      "program": "sh"
+    }
+  },
+  {
+    "label": "zig build run",
+    "command": "zig build run",
+    "use_new_terminal": false,
+    "reveal": "no_focus",
+    "shell": {
+      "program": "sh"
+    }
+  },
+  {
+    "label": "zig build run with HUD",
+    "command": "zig build run",
+    "env": {
+      "MTL_HUD_ENABLED": "1"
+    },
+    "use_new_terminal": false,
+    "reveal": "no_focus",
+    "shell": {
+      "program": "sh"
+    }
+  }
+]

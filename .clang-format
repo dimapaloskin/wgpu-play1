@@ -1,0 +1,6 @@
+BasedOnStyle: Chromium
+AllowShortFunctionsOnASingleLine: Empty
+AccessModifierOffset: -2
+BinPackParameters: false
+MaxEmptyLinesToKeep: 2
+ConstructorInitializerAllOnOneLineOrOnePerLine: true

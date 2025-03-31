@@ -1,0 +1,8 @@
+CompileFlags:
+  Add:
+    - "-ObjC"
+    - "-I../../deps/wgpu/include"
+    - "-I../../deps"
+
+Index:
+  Background: Build
